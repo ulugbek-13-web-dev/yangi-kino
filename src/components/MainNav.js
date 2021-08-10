@@ -26,6 +26,7 @@ export default function SimpleBottomNavigation() {
 
   useEffect(() => {
     if(value === 0) history.push('/');
+        // eslint-disable-next-line
     else if(value === 1) history.push('/movies');
     else if(value === 2) history.push('/series');
     else if(value === 3) history.push('/search')
